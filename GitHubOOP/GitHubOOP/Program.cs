@@ -3,6 +3,7 @@
     internal class Program
     {
         string nur = "Davlatshox";
+        int s = 0;
 
     }
    
