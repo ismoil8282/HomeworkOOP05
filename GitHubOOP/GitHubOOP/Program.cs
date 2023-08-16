@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Rectangle rectangle = new Rectangle();
-            rectangle.Wigth = 4;
+            rectangle.Width = 4;
             rectangle.Height = 5;
             rectangle.DisplayInfo();
 
@@ -14,12 +14,12 @@
     }
     class Rectangle
     {
-        public double Wigth { get; set; }
+        public double Width { get; set; }
         public double Height { get; set; }
 
-        public static double CalculateArea()
+        public  double CalculateArea()
         {
-           return Wigth*Height;
+            return Width * Height;
         }
         public void DisplayInfo()
         {
